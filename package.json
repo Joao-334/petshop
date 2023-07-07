@@ -1,0 +1,9 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "main": "login.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

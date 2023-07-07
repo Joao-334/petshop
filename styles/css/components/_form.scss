@@ -1,0 +1,69 @@
+@import "../abstract/var";
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .image_login_logo {
+        width: 20%;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        .image_login_logo {
+            width: 50%;
+        }
+    }
+
+    .form_text {
+        font-size: $tamanho_titulo;
+        margin-bottom: 1em;
+    }
+
+    .login_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .form_campo {
+
+            [data-user],
+            [data-password] {
+                padding: 1em;
+                border: 2px solid $color;
+                border-radius: 1em;
+
+            }
+
+            [data-user] {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            [data-password] {
+                border-top: 0;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                margin-bottom: 1em;
+            }
+
+        }
+
+        .button_submit {
+            background: $color;
+            color: $white;
+            border: none;
+            border-radius: 1.5em;
+            padding: 0.5em;
+            cursor: pointer;
+            margin-top: 0.5em;
+
+        }
+    }
+}

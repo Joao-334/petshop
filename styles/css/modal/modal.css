@@ -1,0 +1,89 @@
+.create_modal {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.create_modal .modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.create_modal .modal .form_modal {
+  background-color: #F2BE22;
+  display: none;
+  margin: 2em;
+  border: 2px solid #FFFFFF;
+  border-radius: 0.5em;
+  width: 34.375em;
+  height: 25em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.create_modal .modal .form_modal .title_modal {
+  width: 100%;
+  text-align: center;
+}
+.create_modal .modal .form_modal .close_modal {
+  width: 100%;
+  margin-left: 1em;
+  font-size: 1.5em;
+  color: red;
+  cursor: pointer;
+}
+.create_modal .modal .form_modal .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.create_modal .modal .form_modal .field .label {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.15em;
+}
+.create_modal .modal .form_modal .field .input {
+  border: 2px solid #F2BE22;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.create_modal .modal .form_modal .field .input::-moz-placeholder {
+  text-transform: capitalize;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+}
+.create_modal .modal .form_modal .field .input::placeholder {
+  text-transform: capitalize;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+}
+.create_modal .modal .form_modal .field .select_service {
+  margin-top: 0.2em;
+  padding: 0.5em;
+  padding-right: 9.25em;
+  border: 0.15em solid #000000;
+  border-radius: 0.3em;
+  appearance: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  text-align: center;
+}
+.create_modal .modal .form_modal .submit {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border: 2px solid #F2BE22;
+  border-radius: 2em;
+  cursor: pointer;
+  padding: 1.5em;
+}/*# sourceMappingURL=modal.css.map */

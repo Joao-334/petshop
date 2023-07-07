@@ -1,0 +1,77 @@
+.header {
+  height: 100px;
+  width: 100%;
+  border-bottom: 2px solid #F2BE22;
+  font-weight: bold;
+  background: #F2BE22;
+}
+.header .navigation_header {
+  height: 100%;
+  width: 100%;
+}
+.header .navigation_header .navigation_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+.header .navigation_header .navigation_ul .item_link {
+  font-size: 2em;
+}
+.header .navigation_header .navigation_ul .item_link .link {
+  padding: 0.5em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header .navigation_header .navigation_ul .item_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main .add_service_content,
+.main .remove_service_content {
+  border: 0.15em solid #F2BE22;
+}
+.main .add_service_content,
+.main .remove_service_content {
+  padding: 8em;
+  margin-top: 4em;
+  border-radius: 1em;
+}
+.main .add_service_content .add_service,
+.main .remove_service_content .remove_service {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main .add_service_content .add_service .label_add,
+.main .remove_service_content .remove_service .label_add {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.main .add_service_content .add_service .add,
+.main .remove_service_content .remove_service .add {
+  border: none;
+  border: 0.15em solid #F2BE22;
+  border-radius: 0.4em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+}
+.main .add_service_content .add_service .submit_add,
+.main .remove_service_content .remove_service .submit_add {
+  color: green;
+  border: 0.25em solid #F2BE22;
+  border-radius: 0.5em;
+  background: #FFFFFF;
+  padding: 0.5em;
+  cursor: pointer;
+}/*# sourceMappingURL=service.css.map */

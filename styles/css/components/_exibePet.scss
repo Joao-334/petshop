@@ -1,0 +1,69 @@
+@import '../abstract/base';
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .pets {
+        width: 100%;
+        height: 100%;
+        margin-top: 2em;
+
+        .list_pets {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .item {
+                margin-left: 4em;
+                width: 250px;
+                height: 225px;
+                border: 0.1em solid $color;
+                border-radius: 1em;
+                text-align: center;
+                transition: 0.5s ease-in-out;
+                margin-bottom: 1em;
+
+                &:hover {
+                    transition: 0.5s ease-in-out;
+                    width: 275px;
+                    height: 250px;
+
+                    .title_item {
+                        transition: 0.5s ease-in-out;
+                        margin: 0.85em 0;
+                        font-size: 1.65em;
+                        font-weight: bold;
+                    }
+
+                    .text_item {
+                        transition: 0.5s ease-in-out;
+                        margin: 0.85em 0;
+                        font-size: 1.25em;
+                    }
+                }
+
+                .title_item {
+                    transition: 0.5s ease-in-out;
+                    margin: 0.75em 0;
+                    font-size: 1.5em;
+                    font-weight: bold;
+                }
+
+                .text_item {
+                    transition: 0.5s ease-in-out;
+                    margin: 0.75em 0;
+                    font-size: 1.2em;
+                }
+
+
+
+            }
+        }
+    }
+
+}

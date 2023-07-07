@@ -1,0 +1,88 @@
+{
+  "pets": [
+    {
+      "name": "Tatá",
+      "ownerName": "Ana Beatriz",
+      "tel": "17 99200-1573",
+      "service": "Hospedagem",
+      "id": 6
+    },
+    {
+      "name": "Fumaça",
+      "ownerName": "João Felipe Cavoli",
+      "tel": "17 99175-2014",
+      "service": "Banho",
+      "id": 7
+    },
+    {
+      "name": "Bolinha",
+      "ownerName": "Fernando",
+      "tel": "17 99200-1573",
+      "service": "Castragem",
+      "id": 8
+    },
+    {
+      "name": "Golias",
+      "ownerName": "Luis",
+      "tel": "99136-9082",
+      "service": "Hospedagem",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "name": "Ração Dog Show",
+      "stock": 20,
+      "price": "25",
+      "url": "https://www.jauserve.com.br/dw/image/v2/BFJL_PRD/on/demandware.static/-/Sites-jauserve-master/default/dw3489f22b/7891000244135.png?sw=1800",
+      "id": 1
+    },
+    {
+      "name": "Pet Delicia 320g",
+      "stock": 10,
+      "price": "50",
+      "url": "https://m.media-amazon.com/images/I/71vxM66XFJL.jpg",
+      "id": 2
+    },
+    {
+      "name": "Pet Show Condicionador",
+      "stock": 6,
+      "price": "120",
+      "url": "https://cdn.awsli.com.br/2500x2500/1904/1904664/produto/209246971c14f6d51e7.jpg",
+      "id": 3
+    }
+  ],
+  "services": [
+    {
+      "service": "Tosagem",
+      "id": 1
+    },
+    {
+      "service": "Banho",
+      "id": 2
+    },
+    {
+      "service": "Hospedagem",
+      "id": 3
+    },
+    {
+      "service": "Castragem",
+      "id": 4
+    },
+    {
+      "service": "Sedação",
+      "id": 5
+    },
+    {
+      "service": "Internação",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin"
+    }
+  ]
+}

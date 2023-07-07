@@ -1,0 +1,85 @@
+.header {
+  height: 100px;
+  width: 100%;
+  border-bottom: 2px solid #F2BE22;
+  font-weight: bold;
+  background: #F2BE22;
+}
+.header .navigation_header {
+  height: 100%;
+  width: 100%;
+}
+.header .navigation_header .navigation_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+.header .navigation_header .navigation_ul .item_link {
+  font-size: 2em;
+}
+.header .navigation_header .navigation_ul .item_link .link {
+  padding: 0.5em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header .navigation_header .navigation_ul .item_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .image_login_logo {
+  width: 20%;
+  margin-top: 2em;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .main .image_login_logo {
+    width: 50%;
+  }
+}
+.main .form_text {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.main .login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .login_form .form_campo [data-user],
+.main .login_form .form_campo [data-password] {
+  padding: 1em;
+  border: 2px solid #F2BE22;
+  border-radius: 1em;
+}
+.main .login_form .form_campo [data-user] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.main .login_form .form_campo [data-password] {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 1em;
+}
+.main .login_form .button_submit {
+  background: #F2BE22;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.5em;
+  cursor: pointer;
+  margin-top: 0.5em;
+}/*# sourceMappingURL=login.css.map */
